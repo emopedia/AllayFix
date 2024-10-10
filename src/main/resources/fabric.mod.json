@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "allayfix",
+  "version": "${version}",
+  "name": "AllayFix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "gg.emopedia.allayfix.AllayFix"
+    ]
+  },
+  "mixins": [
+    "allayfix.mixins.json",
+    {
+      "config": "allayfix.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
