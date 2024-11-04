@@ -6,7 +6,7 @@
 
 Fixes a bug that causes allay's to despawn while holding an item
 
-[![Release](https://img.shields.io/github/v/release/emopedia/AllayFix?style=for-the-badge&include_prereleases&sort=semver)][releases]
+![Release](https://img.shields.io/github/v/release/emopedia/AllayFix?style=for-the-badge&include_prereleases&sort=semver)
 [![Available For](https://img.shields.io/badge/dynamic/json?label=Available%20For&style=for-the-badge&color=34aa2f&query=$[:]&url=https%3A%2F%2Fwww.jpcode.dev%2Fessentialcommands%2Fsupported_mc_versions.json)][modrinth:files]
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/allayfix?color=00AF5C&label=modrinth&style=for-the-badge&logo=modrinth)][modrinth:files]
